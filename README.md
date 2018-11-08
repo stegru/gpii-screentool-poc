@@ -14,6 +14,6 @@ It is possible to then perform various functions with the text, such as translat
 
 ## The parts
 
-* UI is election.
+* UI is electron.
 * OCR engine in .NET (the node.js wrapper of tesseract isn't good with Windows)
 
