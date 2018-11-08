@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#screenshot {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    user-select: none;
+}
+
+#screenshot #instructions {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+#screenshot #selectbox {
+    display: none;
+    position: absolute;
+    border: 1px solid #f00;
+}
+
+#screenshot.selecting #selectbox {
+    border-style: dashed;
+}
+#screenshot.showSelection #selectbox {
+    display: block;
+}
+
+#screenshot #text {
+    position: absolute;
+    display: none;
+}
+#screenshot.gotText #text {
+    display: block;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+}

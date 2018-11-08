@@ -1,0 +1,8 @@
+.idea/
+.vs/
+tessdata/
+packages/
+obj/
+bin/
+*.csproj.user
+*.sln*.user

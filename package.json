@@ -1,0 +1,14 @@
+{
+    "name": "gpii-screentool-poc",
+    "version": "1.0.0",
+    "dependencies": {
+        "electron": "3.0.4",
+        "electron-edge-js": "8.3.8",
+        "penteract": "0.4.0"
+    },
+    "main": "./src/main.js",
+    "scripts": {
+        "start": "electron .",
+        "debug": "electron --inspect-brk=0.0.0.0:9229 ."
+    }
+}
